@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:url(./Mountains27.png);
+    background-size: cover;
+}
+
+/* css for the navigation bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    height: 20vh;
+}
+nav a{
+    font-size: larger;
+    font-family:'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+/* css for the main container and the elements in it */
+.main{
+    display:flex;
+    margin-top: 20px;
+}
+        /* First div start */
+.first{
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+    background-color: burlywood;
+}
+.first blockquote{
+    font-size: 27px;
+    text-justify: auto;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:20px 0px ;
+}
+#CreateAccount{
+    margin-top: 5%;
+    height: 13%;
+    width: 35%;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border-radius: 17px;
+    cursor: pointer;
+}
+        /* second div start */
+.second{
+    width: 50%;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+/* Footer section */
+.foot{
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.foot li{
+    cursor: pointer;
+}
+.foot-p{
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
